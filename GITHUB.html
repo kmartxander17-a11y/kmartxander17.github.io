@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sweet Sip Cafe</title>
+</head>
+
+<body style="background-color: beige; text-align: center; font-family: Arial;">
+
+<div id="loginSection">
+<h1>Welcome! Please Sign In</h1>
+
+<form onsubmit="
+document.getElementById('skibidicafe').style.display='block';
+document.getElementById('loginSection').style.display='none';
+return false;
+">
+
+<p>Enter nickname/name:</p>
+<input type="text" placeholder="Your nickname/name" required>
+
+<br><br>
+
+<button type="submit">Enter My Cafe</button>
+
+</form>
+</div>
+
+<div id="skibidicafe" style="display:none;">
+<h1>Sweet Sip Cafe</h1>
+<p><i>"Small Cafe, Big Happiness"</i></p>
+
+<h2>Our Products</h2>
+<ul>
+<li>Iced Coffee - ₱80</li>
+<li>Milk Tea - ₱90</li>
+<li>Chocolate Cake - ₱120</li>
+</ul>
+
+<h2>About Our Cafe</h2>
+<p>
+Sweet Sip Cafe is a small cafe that sells affordable drinks and desserts.
+We want customers to relax and enjoy delicious food.
+</p>
+
+<h2>Contact Us</h2>
+<p>Facebook: Sweet Sip Cafe</p>
+<p>Phone: 09511852255</p>
+
+</div>
+
+</body>
+</html>
